@@ -52,6 +52,7 @@
     align-items: center;
     border-radius: 64% / 70% 70% 52% 52%;
     background-color:  rgb(157, 42, 185);
+    border: 0.3em solid black;
     z-index: 2;
 }
 
@@ -59,10 +60,13 @@
     height:30em;
     width:27em;
     display: flex;
-    position: relative;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
     border-radius: 64% / 70% 70% 52% 52%;
-    background-color:  rgb(220, 137, 243);
-    z-index: 3;
+    background-color: #ca73ca;
+    background-image: linear-gradient(302deg, #ca73ca 0%, #dc97e1 50%, #fccefa 80%); 
+    z-index: 5;
 }
 
 #contenedorear {
@@ -87,7 +91,7 @@
     display: flex;
     position: relative;
     margin-bottom: 6em;
-    /* margin-left: 4.5em; */
+    border: 0.3em solid black;
 }
    
 .blankspace {
@@ -105,9 +109,8 @@
     display: flex;
     position: relative;
     margin-bottom: 6em;
-    /* margin-right: 4.5em; */
-    z-index: 5;
-}
+    border: 0.3em solid black;
+    }
 
 
 #contenedorsup2{
@@ -125,22 +128,41 @@
 
 #rightearlight {
     height: 7em;
-    width: 7em;
-    border-radius: 54% / 50% 43% 50% 50%;
-    background-color:  rgb(220, 137, 243);
+    width: 7.2em;
+    border-radius:   64% / 50% 50% 50% 50%;
+    /* background-color: #ca73ca; */
+    background-color: #ca73ca;
+background-image: linear-gradient(14deg, #ca73ca 0%, #dc97e1 11%, #fccefa 85%);
+    
+    
     display: flex;
-    margin-top: 10em;
+    margin-top: 10.6em;
     margin-left: 1em;
     z-index: 4;
 }
      
 #leftearlight {
     height: 7em;
-    width: 7em;
-    border-radius:   54% / 43% 50% 50% 50%;
-    background-color:  rgb(220, 137, 243);
+    width: 7.2em;
+    border-radius:   64% / 50% 50% 50% 50%;
+    /* background-color:  rgb(220, 137, 243); */
+    background-color: #ca73ca;
+background-image: linear-gradient(135deg, #ca73ca 0%, #dc97e1 11%, #fccefa 80%);
+
     display: flex;
     position: relative;
-    margin-top: 10em;
+    margin-top: 10.6em;
     z-index: 4;
+}
+
+#pantalla1 {
+    height: 14em;
+    width: 19em;
+    border-radius: 35%;
+    background-color: #8081a1;
+background-image: linear-gradient(0deg, #8081a1 0%, #8BC6EC 64%, #84e1f3 100%);
+
+    margin-bottom: 6em;
+    border: 0.3em solid black;
+    
 }
