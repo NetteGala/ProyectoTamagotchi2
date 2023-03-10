@@ -1,0 +1,146 @@
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+    body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+}
+
+
+#contenedorcenter1 {
+    height: 44em;
+    width: 32em;
+    display: flex;
+    position: relative;
+    background-color: rgb(182, 255, 194);
+}
+
+#contenedorcenter2{
+    height: 44em;
+    width: 32em;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(8, 64, 17);
+}
+
+#contenedorcenter3 {
+    height: 44em;
+    width: 32em; 
+    display: flex;
+    position: relative;
+    background-color: rgb(211, 129, 14);
+}
+
+
+#tamagotchibodydark {
+    height: 31em;
+    width: 28em;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 64% / 70% 70% 52% 52%;
+    background-color:  rgb(157, 42, 185);
+    z-index: 2;
+}
+
+#tamagotchibodylight {
+    height:30em;
+    width:27em;
+    display: flex;
+    position: relative;
+    border-radius: 64% / 70% 70% 52% 52%;
+    background-color:  rgb(220, 137, 243);
+    z-index: 3;
+}
+
+#contenedorear {
+    height:8em;
+    width: 32em;
+    /* background-color:aqua; */
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    margin-bottom: 22em;
+    z-index: 1;
+
+}
+
+ #leftear {
+    height: 8em;
+    width: 8em;
+    border-radius:   54% / 43% 50% 50% 50%;
+    background-color:  rgb(157, 42, 185);
+    display: flex;
+    position: relative;
+    margin-bottom: 6em;
+    /* margin-left: 4.5em; */
+}
+   
+.blankspace {
+    height: 8em;
+    width: 10em;
+    /* background-color:rgb(51, 42, 185); */
+    display: flex;
+
+}
+#rightear {
+    height: 8em;
+    width: 8em;
+    border-radius: 54% / 50% 43% 50% 50%;
+    background-color:  rgb(157, 42, 185);
+    display: flex;
+    position: relative;
+    margin-bottom: 6em;
+    /* margin-right: 4.5em; */
+    z-index: 5;
+}
+
+
+#contenedorsup2{
+    height:8em;
+    width: 32em;
+    /* background-color:rgb(235, 20, 196); */
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 38em;
+    z-index: 3;
+
+} 
+
+#rightearlight {
+    height: 7em;
+    width: 7em;
+    border-radius: 54% / 50% 43% 50% 50%;
+    background-color:  rgb(220, 137, 243);
+    display: flex;
+    margin-top: 10em;
+    margin-left: 1em;
+    z-index: 4;
+}
+     
+#leftearlight {
+    height: 7em;
+    width: 7em;
+    border-radius:   54% / 43% 50% 50% 50%;
+    background-color:  rgb(220, 137, 243);
+    display: flex;
+    position: relative;
+    margin-top: 10em;
+    z-index: 4;
+}
