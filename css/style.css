@@ -88,13 +88,13 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
 }
 
  #leftear {
-    height: 8em;
-    width: 8em;
-    border-radius:   54% / 43% 50% 50% 50%;
+    height: 7.5em;
+    width: 7.8em;
+    border-radius:  54% / 43% 50% 50% 50%;
     background-color:  rgb(157, 42, 185);
     display: flex;
     position: relative;
-    margin-bottom: 6em;
+    margin-bottom: 5.8em;
     border: 0.3em solid black;
 }
    
@@ -106,13 +106,13 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
 
 }
 #rightear {
-    height: 8em;
-    width: 8em;
+    height: 7.5em;
+    width: 7.8em;
     border-radius: 54% / 50% 43% 50% 50%;
     background-color:  rgb(157, 42, 185);
     display: flex;
     position: relative;
-    margin-bottom: 6em;
+    margin-bottom: 5.8em;
     border: 0.3em solid black;
     }
 
@@ -163,11 +163,14 @@ background-image: linear-gradient(135deg, #ca73ca 0%, #dc97e1 11%, #fccefa 80%);
     height: 14em;
     width: 19em;
     position:absolute;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     border-radius: 35%;
     background-color: #8EC5FC;
     background-color: #8EC5FC;
-background-image: linear-gradient(29deg, #8EC5FC 13%, #aed9d9 52%, #cafcfb 100%);
-
+background-image: linear-gradient(320deg, #8EC5FC 13%, #aed9d9 52%, #cafcfb 100%);
     margin-bottom: 6em;
     border: 0.3em solid black;    
 }
@@ -214,3 +217,108 @@ background-image: linear-gradient(29deg, #8EC5FC 13%, #aed9d9 52%, #cafcfb 100%)
     border: 0.3em solid black;    
 }
     
+#contenedorojos {
+    height: 4em;
+    width: 19em;
+    background-color: #F7CE68;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 5em;
+}
+#ojoderecho {
+    height: 3.5em;
+    width: 3.5em;
+    background-color: #000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+#ojoizquierdo {
+    height: 3.5em;
+    width: 3.5em;
+    background-color: #000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+#brilloojoderecho {
+    height: 1.8em;
+    width: 1.8em;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}
+#brilloojoizquierdo {
+    height: 1.8em;
+    width: 1.8em;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 0.5em;
+}
+
+#contenedornariz {
+    height: 4em;
+    width: 19em;
+    /* background-color: #8768f7; */
+    display: flex;
+    justify-content:center;
+    align-items: center;  
+}
+
+#nariz {
+    width: 0;
+	height: 0;
+  background: transparent;
+	border-left: 1.5em solid transparent;
+	border-right: 1.5em solid transparent;
+	border-top: 1.5em solid #010101;
+    border-radius: 45%;
+    margin-bottom: 4.5em;
+}
+
+
+#contenedorboca {
+    height: 4em;
+    width: 8em;
+    background-color: #68f779;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+}
+
+#boca1 {
+  width:3em; height:3em;  
+  border:solid 0.4em #000;
+  border-color:#000 black transparent transparent;
+  border-radius: 50%/50%;
+  rotate: 140deg;
+  margin-bottom: 12em;
+  /* margin-left: 0.5em; */
+
+}
+#boca2 {
+    width:3em; height:3em;  
+    border:solid 0.4em #000;
+    border-color:#000 black transparent transparent;
+    border-radius: 50%/50%;
+    rotate: 130deg;
+    margin-bottom: 12em;
+    z-index: 5;
+    margin-left: -0.5em;
+  }
+
+#contenedormofletes {
+    height: 4em;
+    width: 19em;
+    background-color: #e6171a;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+}
