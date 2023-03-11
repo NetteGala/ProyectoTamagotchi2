@@ -200,7 +200,7 @@ background: radial-gradient(circle, rgba(255,211,241,1) 0%, rgba(255,158,224,1) 
 /* Aqui termina el diseño general de la forma del tamagotchi */
 /* ----------------------------------------------- */
 
-.pantalla1 {
+#pantalla1 {
     height: 14em;
     width: 19em;
     position:absolute;
@@ -243,7 +243,7 @@ background: radial-gradient(circle, rgba(255,211,241,1) 0%, rgba(255,158,224,1) 
 
 #botoncito1:hover {
     background-color: #01fe4d;
-    background-image: linear-gradient(346deg, #01fe2f 1%, #80D0C7 66%, #ffffff 100%);
+    background-image: linear-gradient(346deg, #01fe2f 1%, #557773 66%, #88d699 100%);
     transition: 1s; 
 }
     
@@ -257,6 +257,11 @@ background: radial-gradient(circle, rgba(255,211,241,1) 0%, rgba(255,158,224,1) 
     margin-top: 1em;
     border: 0.3em solid black;    
 }
+#botoncito2:hover {
+    background-color: #01fe4d;
+    background-image: linear-gradient(346deg, #01fe2f 1%, #557773 66%, #88d699 100%);
+    transition: 1s; 
+}
     
 #botoncito3 {
     height: 4.5em;
@@ -268,9 +273,30 @@ background: radial-gradient(circle, rgba(255,211,241,1) 0%, rgba(255,158,224,1) 
     margin-bottom: 1em;
     border: 0.3em solid black;    
 }
-    
+#botoncito3:hover {
+    background-color: #01fe4d;
+    background-image: linear-gradient(346deg, #01fe2f 1%, #557773 66%, #88d699 100%);
+    transition: 1s; 
+    transition: 1s; 
+} 
 /* ----------------------------------------------
 este es el diseño de pantalla para la carita sonriente */
+
+#pantalla2 {
+    height: 14em;
+    width: 19em;
+    position:absolute;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35%;
+    background-color: #8EC5FC;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(320deg, #8EC5FC 13%, #aed9d9 52%, #cafcfb 100%);
+    margin-bottom: 6em;
+    border: 0.3em solid black;    
+}
 
 .contenedorojos {
     height: 4em;
@@ -399,6 +425,22 @@ este es el diseño de pantalla para la carita sonriente */
 /* ------------------------------------------------ */
 /* Este es el diseño de pantalla para la carita enamorada */
 
+#pantalla3 {
+    height: 14em;
+    width: 19em;
+    position:absolute;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35%;
+    background-color: #8EC5FC;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(320deg, #8EC5FC 13%, #aed9d9 52%, #cafcfb 100%);
+    margin-bottom: 6em;
+    border: 0.3em solid black;    
+}
+
 #ojocorazonderecho {
         --size: 2.2em;
         --color: rgb(236, 56, 56);
@@ -471,6 +513,22 @@ este es el diseño de pantalla para la carita sonriente */
       /* ------------------------------------------
       este es el diseño de pantalla para la carita muerta */
 
+      #pantalla4 {
+        height: 14em;
+        width: 19em;
+        position:absolute;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 35%;
+        background-color: #8EC5FC;
+        background-color: #8EC5FC;
+        background-image: linear-gradient(320deg, #8EC5FC 13%, #aed9d9 52%, #cafcfb 100%);
+        margin-bottom: 6em;
+        border: 0.3em solid black;    
+    }
+
 #contenedorojosmuertos{
     height: 4em;
     width: 17em;
@@ -529,3 +587,33 @@ este es el diseño de pantalla para la carita sonriente */
         transform: rotate(-45deg);
         left: 28px;
     }
+
+    #contenedorbocamuerta {
+        height: 7em;
+        width: 8em;
+        /* background-color: #68f779; */
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: -3em; 
+    }
+    
+    #bocamuerta {
+        width:8em; height:4em;  
+         border:solid 0.6em #000;
+         border-color:#000 transparent transparent transparent;
+         position: absolute;
+         border-radius: 50%/30%;
+    }
+    
+    #lengua{
+        width:3em;
+        height:4em;  
+        border:solid 0.4em #000;
+        background-color: #ca73ca;
+        border-radius: 10% 25% 50% 50%;
+        margin-left: 2em;
+        margin-top: 0,6em;  
+    }
+
+        /* ------------------------------------- esse es el fin del diseño de pantalla deadpet---- */
